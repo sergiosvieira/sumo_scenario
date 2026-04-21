@@ -21,6 +21,16 @@ N. Ostendorf, K. Garlichs, L. C. Wolf, "HaTS - Hanover Traffic Scenario for SUMO
 HaTS Scenario can be launched directly with its configuration file:\
 ``` sumo -c hats.sumocfg```
 
+## Cropped Scenario
+
+A sub-scenario is included in the `scenario/` directory. For more information on how it was generated, refer to [README-CROP.md](scenario/README-CROP.md).
+
+**Key aspects of the cropping process:**
+- **Network:** Cropped using `netconvert` with boundary limits and coordinate offsets preserved.
+- **Routes:** Vehicle and bicycle routes filtered using `cutRoutes.py`.
+- **Polygons & Obstacles:** Processed via custom Python scripts to ensure spatial consistency and correct coordinate mapping.
+- **Automation:** The `crop_scenario.sh` script automates the entire workflow.
+
 ## Statistics
 
 ![](./resources/SimVsExpVeh.svg)
