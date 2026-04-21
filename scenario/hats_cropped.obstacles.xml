@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-04-21T08:45:58.763735-03:00 by Eclipse SUMO polyconvert v1_26_0+1301-14f1cb55af0
+<polyconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/polyconvertConfiguration.xsd">
+
+    <input>
+        <xml-files value="additionals/hats.obstacles.xml"/>
+    </input>
+
+    <output>
+        <output-file value="hats_cropped.obstacles.xml"/>
+    </output>
+
+    <projection>
+        <proj.scale value="1.00000"/>
+    </projection>
+
+    <pruning>
+        <prune.boundary value="215.03,4016.20,1171.76,4979.51"/>
+    </pruning>
+
+    <processing>
+        <offset.x value="0"/>
+        <offset.y value="0"/>
+        <ignore-errors value="true"/>
+    </processing>
+
+</polyconvertConfiguration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+</additional>
